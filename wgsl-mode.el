@@ -11,7 +11,7 @@
 	;; types
 	("f32\\|vec[[:digit:]]" . font-lock-type-face)
 	;; built-ins
-	("location\\|builtin" . font-lock-builtin-face)
+	("location\\|builtin\\|group\\|binding\\|block" . font-lock-builtin-face)
 	))
 
 (define-derived-mode wgsl-mode c-mode "wgsl"
